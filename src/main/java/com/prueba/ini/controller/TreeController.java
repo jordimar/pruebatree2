@@ -11,8 +11,9 @@ public class TreeController {
 	String getDatos()
 	{
 		System.out.println("Devuelve datos");
+		System.out.println("Devuelve datos 222");
 		
-		return "datos";
+		return "datos";  
 	}
 	
 
