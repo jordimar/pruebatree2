@@ -11,9 +11,9 @@ public class TreeController {
 	String getDatos()
 	{
 		System.out.println("Cambio endpoint 1");
-		System.out.println("Cambio endpoint 1");
-		System.out.println("Cambio endpoint 1");
-		System.out.println("Cambio endpoint 1");
+		System.out.println("Cambio endpoint 2");
+		System.out.println("Cambio endpoint 3");
+		System.out.println("Cambio endpoint 4");
 		
 		return "datos";  
 	}
