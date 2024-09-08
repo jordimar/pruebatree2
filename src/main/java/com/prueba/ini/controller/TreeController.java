@@ -10,9 +10,7 @@ public class TreeController {
 	@GetMapping
 	String getDatos()
 	{
-		System.out.println("Devuelve datos");
-		System.out.println("Devuelve datos 222");
-		System.out.println("Devuelve datos 3333");
+		System.out.println("Cambio endpoint 1");
 		
 		return "datos";  
 	}
