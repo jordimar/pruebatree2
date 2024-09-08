@@ -18,4 +18,14 @@ public class TreeController {
 	}
 	
 
+	@GetMapping
+	String getDatos2()
+	{
+		System.out.println("Devuelve datos2");
+		System.out.println("Devuelve datos2 222");
+		System.out.println("Devuelve datos2 3333");
+		
+		return "datos2";  
+	}
+
 }
